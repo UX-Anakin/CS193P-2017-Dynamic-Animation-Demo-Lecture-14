@@ -11,10 +11,10 @@ import UIKit
 class AsteroidsViewController: UIViewController
 {
     private var asteroidField: AsteroidFieldView!
-    private var ship: SpaceshipView!
-    
     private lazy var animator: UIDynamicAnimator = UIDynamicAnimator(referenceView: self.asteroidField)
-    
+
+    private var ship: SpaceshipView!
+        
     private var asteroidBehavior = AsteroidBehavior()
     
     // MARK: View Controller Lifecycle
@@ -41,9 +41,11 @@ class AsteroidsViewController: UIViewController
         if asteroidField == nil {
             asteroidField = AsteroidFieldView(frame: CGRect(center: view.bounds.mid, size: view.bounds.size * Constants.asteroidFieldMagnitude))
             view.addSubview(asteroidField)
+            
             let shipSize = view.bounds.size.minEdge * Constants.shipSizeToMinBoundsEdgeRatio
             ship = SpaceshipView(frame: CGRect(squareCenteredAt: asteroidField.center, size: shipSize))
             view.addSubview(ship)
+            
             repositionShip()
             asteroidField.addAsteroids(count: Constants.initialAsteroidCount, exclusionZone: ship.convert(ship.bounds, to: asteroidField))
             asteroidField.asteroidBehavior = asteroidBehavior

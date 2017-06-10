@@ -119,7 +119,7 @@
 				TargetAttributes = {
 					ECCF2CBE1E679FA90061DDA0 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = 663TR68DHM;
+						DevelopmentTeam = X9669MJ564;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -289,10 +289,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 663TR68DHM;
+				DEVELOPMENT_TEAM = X9669MJ564;
 				INFOPLIST_FILE = Asteroids/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = deiman.stanford.cs193p.lecture.Asteroids;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chyiyaqing.gmail.Asteroids;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -302,10 +302,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 663TR68DHM;
+				DEVELOPMENT_TEAM = X9669MJ564;
 				INFOPLIST_FILE = Asteroids/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = deiman.stanford.cs193p.lecture.Asteroids;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chyiyaqing.gmail.Asteroids;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
